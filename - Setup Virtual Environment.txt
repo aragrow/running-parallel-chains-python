@@ -1,0 +1,17 @@
+- Setup Virtual Environment
+
+python3 -m venv venv
+source venv/bin/activate
+
+- Install modules
+
+pip3 install langchain
+pip3 install langchain-openai
+pip3 install load-dotenv
+pip3 install Flask
+pip3 install Flask-RESTful
+pip3 install Flask-Auth
+
+- create requirements.txt
+
+frezee -m requirements.txt
